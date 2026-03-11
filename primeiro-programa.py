@@ -30,3 +30,26 @@ limite_saque_diario = 1000
 BRAZILIAN_STATES = ["SP", "RJ", "MG", "ES"]
 
 print(BRAZILIAN_STATES)
+
+#CONVERSÃO DE TIPOS
+
+print(int(3.0)) 
+print(int(1.5)) # converte float para int, arredondando para baixo
+
+print(int("10")) # converte string para int
+print(float("10.10")) # converte string para float
+
+print(str(10.50)) # converte float para string
+
+valor = 10
+valor_str = str(valor)
+print(type(valor)) # mostra o tipo da variável, nesse caso int
+print(type(valor_str)) # mostra o tipo da variável, nesse caso str
+
+print(100 / 2) # divisão normal, resultado é float
+print(100 // 2) # divisão inteira, resultado é int, pois o // arredonda para baixo
+
+preco = 28
+print(str(preco) + " reais") # concatenação de string, converte o int para str e junta com a string " reais"
+texto = f"preco é {preco}, vai comprar?" # f-string, permite inserir variáveis dentro da string usando {}
+print(texto)
