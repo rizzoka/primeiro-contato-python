@@ -53,3 +53,12 @@ preco = 28
 print(str(preco) + " reais") # concatenação de string, converte o int para str e junta com a string " reais"
 texto = f"preco é {preco}, vai comprar?" # f-string, permite inserir variáveis dentro da string usando {}
 print(texto)
+
+nome2 = input("Informe o seu nome: ") # função para ler uma entrada
+idade = input(f"Informe a sua idade {nome2}:") 
+
+print(f"Olá, {nome2}!") # função para imprimir uma mensagem com o nome informado
+
+print(nome2, idade, end="... \n") # end="... \n" para adiciona "..." no final antes de pular a linha
+
+print(nome2, idade, sep="#") # sep="#" para separar os valores com "#"
